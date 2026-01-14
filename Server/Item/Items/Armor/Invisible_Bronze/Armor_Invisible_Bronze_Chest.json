@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Armor_Invisible_Bronze_Chest.name"
+  },
+  "ItemLevel": 22,
+  "Icon": "Icons/ItemsGenerated/Armor_Bronze_Chest.png",
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Armor_Bronze_Chest",
+        "Quantity": 1
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Bolt_Wool"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "TODO",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Chest"
+        ]
+      }
+    ],
+    "KnowledgeRequired": true
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 17,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.09,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 200,
+  "DurabilityLossOnHit": 1,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Bronze"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Quality": "Uncommon"
+}
