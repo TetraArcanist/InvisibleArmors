@@ -5,12 +5,12 @@
   "Description": "",
   "Authors": [
     {
-      "Name": "Tetra",
+      "Name": "TetraArcanist",
       "Email": "",
-      "Url": ""
+      "Url": "https://www.curseforge.com/members/tetraarcanist/projects"
     }
   ],
-  "Website": "",
+  "Website": "https://github.com/TetraArcanist/InvisibleArmors",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
